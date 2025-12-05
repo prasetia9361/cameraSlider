@@ -10,10 +10,10 @@ WifiSetup *wifiSetup;
 #define DIR_PIN         3
 
 
-#define SDA_PIN         8
-#define SCL_PIN         9
-#define XSHUT_LO_PIN    4  // Pin XSHUT untuk Sensor Bawah (Homing)
-#define XSHUT_HI_PIN    5  // Pin XSHUT untuk Sensor Atas (Limit Max)
+#define SDA_PIN         4
+#define SCL_PIN         5
+#define XSHUT_LO_PIN    6  // Pin XSHUT untuk Sensor Bawah (Homing)
+#define XSHUT_HI_PIN    7  // Pin XSHUT untuk Sensor Atas (Limit Max)
 
 
 #define MAX_SPEED       1500.0 // Steps/sec
